@@ -19,7 +19,7 @@ nano Dockerfile
 
 Сначала укажем, на основе какого образа будет работать наш Dockerfile. Затем укажем обновление пакетного менеджера и установим необходимые программы. Команды указаны на рисунке ниже.
 
-![image](pic1.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic1.png)
 
 В конце закрываем файл.
 
@@ -33,15 +33,15 @@ docker build -t aafire .
 docker run -it aafire
 aafire
 ```
-![image](pic2.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic2.png)
 
 Видим следующее:
 
-![image](pic3.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic3.png)
 
 Для двух контейнеров.
 
-![image](pic4.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic4.png)
 
 Два контейнера с aafire оставляем в работающем состоянии.
 
@@ -62,12 +62,12 @@ sudo docker network connect myNetwork jovial_elbakyan
 ```
 docker network inspect myNetwork
 ```
-![image](pic5.png)
-![image](pic6.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic5.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic6.png)
 
 Проверим соединение, используя команду ping, после того, как контейнеры были соединены (IP-адреса получили из последжней выполненной команды). Как видим, пинг успешен.
 
-![image](pic7.png)
+![image](https://github.com/kathykkKk/cs-itmo-2023/blob/main/lab-4-kathykkKk/Report/lab4/pic7.png)
 
 # Вывод
 
